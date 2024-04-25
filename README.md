@@ -3,9 +3,9 @@
 Used the JetStream demo to add my EPG demo.
 Showcasing multiple ways to use and to modify
 
-### Filter Dialog
-### Auto Focus 
-### OnNow focus
+* Filter Dialog
+* Auto Focus 
+* OnNow focus
 
 ![screenshot](Screenshot_Epg.png)
 
