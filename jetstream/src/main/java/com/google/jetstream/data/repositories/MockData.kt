@@ -3,6 +3,7 @@ package com.google.jetstream.data.repositories
 import com.google.jetstream.data.models.CategoriesItems
 import com.google.jetstream.data.models.ChannelRowItems
 import com.google.jetstream.data.models.ProgramRowItems
+import com.google.jetstream.data.models.RecentChannels
 import kotlinx.coroutines.flow.flow
 
 class MockData {
@@ -32,6 +33,15 @@ class MockData {
             CategoriesItems(6,"Spain"),
             CategoriesItems(7,"Portugal"),
             CategoriesItems(8,"Poland"),
+        )
+    }
+
+    fun createRecentChannels():MutableList<RecentChannels>{
+        return mutableListOf(
+            RecentChannels(0,"ESPN","https://raw.githubusercontent.com/Jasmeet181/mediaportal-us-logos/master/TV/.Light/ESPN%20HD.png"),
+            RecentChannels(1,"MTV","https://raw.githubusercontent.com/Jasmeet181/mediaportal-us-logos/master/TV/.Light/MTV.png"),
+            RecentChannels(2,"BET","https://ott-logos.s3.us-east-1.amazonaws.com/BETHD.png"),
+            RecentChannels(3,"Discovery","https://raw.githubusercontent.com/Jasmeet181/mediaportal-us-logos/master/TV/.Light/Discovery.png"),
         )
     }
 

@@ -32,3 +32,9 @@ data class CategoriesItems(
     val categoryId:Int,
     val categoryName:String,
 )
+
+data class RecentChannels(
+    val channelID:Int,
+    val channelName:String,
+    val channelIconSrc:String,
+)

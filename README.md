@@ -6,6 +6,9 @@ Showcasing multiple ways to use and to modify
 * Filter Dialog
 * Auto Focus 
 * OnNow focus
+* Added Recent Channels Row
+
+![screenshot](Screenshot_recentch.png)
 
 ![screenshot](Screenshot_Epg.png)
 

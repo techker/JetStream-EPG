@@ -40,8 +40,10 @@ import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.Text
 import com.google.jetstream.data.entities.Movie
 import com.google.jetstream.data.entities.MovieList
+import com.google.jetstream.data.repositories.MockData
 import com.google.jetstream.data.util.StringConstants
 import com.google.jetstream.presentation.common.MoviesRow
+import com.google.jetstream.presentation.common.RecentChannelsRow
 import com.google.jetstream.presentation.screens.dashboard.rememberChildPadding
 
 @Composable
@@ -94,6 +96,8 @@ private fun Catalog(
     val pivotOffsetForImmersiveList = remember { PivotOffsets(0f, 0f) }
     var immersiveListHasFocus by remember { mutableStateOf(false) }
 
+    var recentChannels = MockData().createRecentChannels()
+
     val shouldShowTopBar by remember {
         derivedStateOf {
             tvLazyListState.firstVisibleItemIndex == 0 &&
@@ -127,6 +131,16 @@ private fun Catalog(
                  Setting height for the FeaturedMovieCarousel to keep it rendered with same height,
                  regardless of the top bar's visibility
                  */
+            )
+        }
+        item(contentType = "RecentChannels") {
+            RecentChannelsRow(
+                modifier = Modifier.padding(top = 16.dp),
+                channels = recentChannels,
+                title = "Recent Channels",
+                onChannelClick = {
+
+                }
             )
         }
         item(contentType = "MoviesRow") {
