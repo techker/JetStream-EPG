@@ -109,7 +109,6 @@ fun ProfileScreen(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             ProfileScreens.values().forEachIndexed { index, profileScreen ->
-                // TODO: make this dense list item
                 key(index) {
                     ListItem(
                         trailingContent = {
@@ -186,6 +185,9 @@ fun ProfileScreen(
             builder = {
                 composable(ProfileScreens.Accounts()) {
                     AccountsSection()
+                }
+                composable(ProfileScreens.Profiles()) {
+                    AccountsSwapProfile()
                 }
                 composable(ProfileScreens.About()) {
                     AboutSection()

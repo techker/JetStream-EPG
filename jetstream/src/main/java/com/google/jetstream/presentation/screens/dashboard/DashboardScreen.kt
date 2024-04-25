@@ -61,7 +61,7 @@ import com.google.jetstream.presentation.screens.Screens
 import com.google.jetstream.presentation.screens.categories.CategoriesScreen
 import com.google.jetstream.presentation.screens.favourites.FavouritesScreen
 import com.google.jetstream.presentation.screens.home.HomeScreen
-import com.google.jetstream.presentation.screens.liveTv.components.EpgLayoutContentPreviewV1
+import com.google.jetstream.presentation.screens.liveTv.EpgLayoutContentPreviewV1
 import com.google.jetstream.presentation.screens.movies.MoviesScreen
 import com.google.jetstream.presentation.screens.profile.ProfileScreen
 import com.google.jetstream.presentation.screens.search.SearchScreen

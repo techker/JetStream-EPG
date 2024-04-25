@@ -1,4 +1,4 @@
-package com.google.jetstream.presentation.screens.liveTv.components
+package com.google.jetstream.presentation.screens.liveTv
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -421,11 +421,6 @@ fun CreateViewV1(
                  * Opens the Bottom View
                  */
                 isVisible = true
-//                if(isVisible){
-//                    isVisible = false
-//                }else{
-//                    isVisible = true
-//                }
                 dPadKeyEventsReceived.value = true
               }
             )
