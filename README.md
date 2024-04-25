@@ -7,6 +7,8 @@ Showcasing multiple ways to use and to modify
 ### Auto Focus 
 ### OnNow focus
 
+![screenshot](Screenshot_Epg.png)
+
 ### Dialogs in progress V2
  Bottom view that has menu items, Down key opens the view to have more information
 
