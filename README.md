@@ -1,18 +1,18 @@
-### Compose TV Demo
+## Compose TV Demo
 
 Used the JetStream demo to add my EPG demo.
 Showcasing multiple ways to use and to modify
 
-# Filter Dialog
-# Auto Focus 
-# OnNow focus
+### Filter Dialog
+### Auto Focus 
+### OnNow focus
 
-## Dialogs in progress V2
-# Bottom view that has menu items, Down key opens the view to have more information
+### Dialogs in progress V2
+ Bottom view that has menu items, Down key opens the view to have more information
 
 ### In Progress 
-# Fix minor issues while scrolling EPG
-# Loading time for EPG and UI Freeze
+ Fix minor issues while scrolling EPG
+Loading time for EPG and UI Freeze
 
 ### JetStream
 
