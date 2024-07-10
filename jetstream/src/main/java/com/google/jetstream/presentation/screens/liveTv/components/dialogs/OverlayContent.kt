@@ -33,8 +33,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.tv.material3.ExperimentalTvMaterial3Api
-import com.example.composeepg.screens.components.BottomTextChip
 import com.google.jetstream.R
+import com.google.jetstream.presentation.screens.liveTv.components.BottomTextChip
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 

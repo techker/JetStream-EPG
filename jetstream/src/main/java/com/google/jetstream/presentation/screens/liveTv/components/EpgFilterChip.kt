@@ -1,4 +1,4 @@
-package com.example.composeepg.screens.components
+package com.google.jetstream.presentation.screens.liveTv.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.BorderStroke

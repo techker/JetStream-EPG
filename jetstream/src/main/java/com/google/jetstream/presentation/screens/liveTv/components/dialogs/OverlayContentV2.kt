@@ -42,9 +42,9 @@ import androidx.tv.material3.ExperimentalTvMaterial3Api
 import androidx.tv.material3.MaterialTheme
 import androidx.tv.material3.ProvideTextStyle
 import coil.compose.AsyncImage
-import com.example.composeepg.screens.components.BottomTextChip
 import com.google.jetstream.R
 import com.google.jetstream.data.repositories.MockData
+import com.google.jetstream.presentation.screens.liveTv.components.BottomTextChip
 import com.google.jetstream.presentation.utils.handleDPadKeyEvents
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter

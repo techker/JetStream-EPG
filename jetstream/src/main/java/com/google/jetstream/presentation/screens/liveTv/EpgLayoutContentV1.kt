@@ -55,14 +55,14 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.tv.material3.ExperimentalTvMaterial3Api
 import coil.compose.AsyncImage
-import com.example.composeepg.screens.components.ChannelItemsContentV2
-import com.example.composeepg.screens.components.EpgFilterChip
-import com.example.composeepg.screens.components.HoursItemsContent
-import com.example.composeepg.screens.components.ProgramItemsContent
 import com.google.jetstream.R
 import com.google.jetstream.data.models.ChannelRowItems
 import com.google.jetstream.data.repositories.MockData
 import com.google.jetstream.data.util.handleDPadKeyEventsCustom
+import com.google.jetstream.presentation.screens.liveTv.components.ChannelItemsContentV2
+import com.google.jetstream.presentation.screens.liveTv.components.EpgFilterChip
+import com.google.jetstream.presentation.screens.liveTv.components.HoursItemsContent
+import com.google.jetstream.presentation.screens.liveTv.components.ProgramItemsContent
 import com.google.jetstream.presentation.screens.liveTv.components.dialogs.FilterDialog
 import com.google.jetstream.presentation.screens.liveTv.components.dialogs.OverlayContent
 import com.google.jetstream.view.HomeScreenUiState
@@ -430,6 +430,10 @@ fun CreateViewV1(
             label = "Filter",
             isChecked = false,
             onCheckedChange = {
+                /**
+                 * IsVisible is for testing bottom dialog still in progress
+                 * isOpen is the dialog
+                 */
                 /**
                  * IsVisible is for testing bottom dialog still in progress
                  * isOpen is the dialog

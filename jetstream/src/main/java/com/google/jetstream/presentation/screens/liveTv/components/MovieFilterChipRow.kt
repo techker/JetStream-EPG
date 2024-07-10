@@ -1,4 +1,4 @@
-package com.example.composeepg.screens.components
+package com.google.jetstream.presentation.screens.liveTv.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
